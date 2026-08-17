@@ -441,7 +441,7 @@ section { padding: 72px 0; }
 .float-btn:hover { transform: translateY(-2px); filter: brightness(1.06); }
 .float-btn svg { width: 30px; height: 30px; fill: #fff; }
 .float-contact { background: var(--red); }
-.float-fb { background: #1877f2; }
+.float-messenger { background: #0084ff; }
 .float-wa { background: #25d366; }
 
 
@@ -694,3 +694,7 @@ html { scroll-behavior: smooth; }
   .float-btn { width: 43px; height: 43px; }
   .float-btn svg { width: 24px; height: 24px; }
 }
+
+/* Contact form demoted to a quiet secondary option — small lede, no big heading */
+.cf-lede { max-width: 560px; margin: 0 auto 22px; text-align: center; color: var(--muted); font-size: 14.5px; }
+.cf-trust { max-width: 560px; margin: -10px auto 22px; text-align: center; color: var(--muted); font-size: 13px; }
